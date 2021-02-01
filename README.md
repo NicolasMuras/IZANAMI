@@ -20,7 +20,7 @@ Para esto utilizo Selenium en conjunto con BeautifulSoup.
 <ul>
 <li><strong>Python</strong>: El lenguaje utilizado para la elaboracion del codigo.</li>
 <li><strong>Selenium</strong>: Es un framework que nos permitira simular la navegación mediante un web driver.</li>
-<li><strong>BeautifulSoup</strong>: Libreria utilizada para hacer analizar documentos HTML.</li>
+<li><strong>BeautifulSoup</strong>: Libreria utilizada para analizar documentos HTML.</li>
 </ul>
 
 Empece por definir esta vez una clase y encarar por otro camino, el paradigma de la programación orientada a objetos.
