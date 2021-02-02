@@ -25,6 +25,8 @@ Para esto utilizo Selenium en conjunto con BeautifulSoup.
 
 Empece por definir esta vez una clase y encarar por otro camino, el paradigma de la programación orientada a objetos.
 
+![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/class_driver_0.bmp?raw=true)
+
 Empece a implementar los test, siguiendo la metodología TDD, aquí algunos ejemplos:
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/ejemplos_escritos_por_mi.bmp?raw=true)
