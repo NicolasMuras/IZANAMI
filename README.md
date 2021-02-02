@@ -39,7 +39,7 @@ Continue separando en metodos, esta vez contemple la posibilidad de crear una cl
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/herencia_python.bmp?raw=true)
 
-Le hago refactoring a los tests para evitar el DRY, uno para conectarnos y otro que te conecta y busca, por ahora son 6 tests a las funciones principales.
+Le hago refactoring a los tests para aplicar el DRY, uno para conectarnos y otro que te conecta y busca, por ahora son 6 tests a las funciones principales.
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/test_refactoring.bmp?raw=true)
 
