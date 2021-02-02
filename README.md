@@ -29,7 +29,7 @@ Empecé por definir esta vez una clase y encarar por otro camino, el paradigma d
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/class_driver_0.bmp?raw=true)
 
-Implemente los test, siguiendo la metodología TDD, aquí algunos ejemplos:
+Implemente los test siguiendo la metodología TDD, aquí algunos ejemplos:
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/ejemplos_escritos_por_mi.bmp?raw=true)
 
