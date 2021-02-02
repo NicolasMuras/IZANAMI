@@ -23,6 +23,8 @@ Para esto utilizo Selenium en conjunto con BeautifulSoup.
 <li><strong>BeautifulSoup</strong>: Libreria utilizada para analizar documentos HTML.</li>
 </ul>
 
+<h2> DIA 1 </h2>
+
 Empece por definir esta vez una clase y encarar por otro camino, el paradigma de la programación orientada a objetos.
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/class_driver_0.bmp?raw=true)
@@ -30,5 +32,15 @@ Empece por definir esta vez una clase y encarar por otro camino, el paradigma de
 Empece a implementar los test, siguiendo la metodología TDD, aquí algunos ejemplos:
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/ejemplos_escritos_por_mi.bmp?raw=true)
+
+<h2> DIA 2 </h2>
+
+Continue separando en metodos, esta vez contemple la posibilidad de crear una clase FbDriver y hacer que herede de Driver, de esta forma las responsabilidades de cada una estan bien divididas, ademas tenemos la clase UrlParser, esta se encarga de realizar algunas busquedas especificas (expresiones regulares) en cadenas de texto.
+
+![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/herencia_python.bmp?raw=true)
+
+Le hago refactoring a los tests para evitar el DRY, uno para conectarnos y otro que te conecta y busca, por ahora son 6 tests a las funciones principales.
+
+![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/test_refactoring.bmp?raw=true)
 
 #Selenium #Automation #Hacking #Scripting #bs4
