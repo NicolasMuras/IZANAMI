@@ -23,6 +23,7 @@ Para esto utilizo Selenium en conjunto con BeautifulSoup.
 <li><strong>Python</strong>: El lenguaje utilizado para la elaboración del código.</li>
 <li><strong>Selenium</strong>: Es un framework que nos permitirá simular la navegación mediante un web driver.</li>
 <li><strong>BeautifulSoup</strong>: Librería utilizada para analizar documentos HTML.</li>
+<li><strong>pytest</strong>: Librería de testing utilizada.</li>
 </ul>
 
 <h2> DIA 1 </h2>
