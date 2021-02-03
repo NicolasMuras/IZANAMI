@@ -43,8 +43,7 @@ Continúe separando en métodos, esta vez contemple la posibilidad de crear una 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/herencia_python.bmp?raw=true)
 
 Le hago refactoring a los tests para aplicar el DRY, uno para conectarnos y otro que te conecta y busca, por ahora son 6 tests a las funciones principales, todos pasaron.
-El inconveniente que seguro verán es que el tiempo de ejecución de los tests es alto, esto es normal debido a que el programa en si utiliza Selenium, básicamente,
-estoy haciéndole test unitarios a un test funcional.
+El inconveniente que seguro verán es que el tiempo de ejecución de los tests es alto, esto es normal debido a que el programa en si utiliza Selenium.
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/test_refactoring_0.bmp?raw=true)
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/success_testing.bmp?raw=true)
