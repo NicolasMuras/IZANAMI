@@ -54,4 +54,8 @@ Hoy me levante con ganas de aplicar otra metodología, mi idea es que este proye
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/gherkin_0.bmp?raw=true)
 
+Mas alla de esto, hay que recalcar que este proyecto es en Selenium y aunque parezca que simplemente es un test UI, no lo es, mas adelante entrara en acción BeautifulSoup, con el que podremos hacer el conocido "web scraping" y todo cobrara mas sentido.
+
+![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/behavior_testing_0.bmp?raw=true)
+
 #Selenium #Automation #Hacking #Scripting #bs4
