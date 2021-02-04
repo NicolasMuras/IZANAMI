@@ -1,6 +1,7 @@
 from class_driver import Driver
 from class_urlparser import UrlParser
 from selenium import webdriver
+from selenium.webdriver.opera.options import Options
 import os
 from time import sleep
 
@@ -9,7 +10,9 @@ from time import sleep
 class FbDrive(Driver):
 
     def __init__(self):
-        self.driver = webdriver.Opera(executable_path=(str(os.getcwd())+"\\Izanami\\operadriver.exe"))
+        options = Options()
+        options.add_argument("--log-level=3")  
+        self.driver = webdriver.Opera(options=options, executable_path=(str(os.getcwd())+"\\Izanami\\operadriver.exe"))
 
         self.objeto = Driver.__init__(self, self.driver)
 
@@ -23,21 +26,19 @@ class FbDrive(Driver):
             sleep(0.6)
             self.driver.find_element_by_name('login').click()
         except Exception:
-            self.driver.close()
             print('[!] Cannot connect to the main page, try again.')
         
-        Driver.wait_request(self, 'Facebook')
+        Driver.wait_request(self, self.driver.title)
     
-    def facebook_search(self, target):
+    def facebook_search(self, original, target):
 
         try:
             url = UrlParser.parse_search(target)
             self.driver.get(url)
             target = target + " - Resultados de búsqueda | Facebook"
-            Driver.wait_request(self, target)
+            Driver.wait_request(self, original, target)
 
         except Exception:
-            self.driver.close()
             print('[!] Cannot search, try again.')
 
 ##############################################################################################################################
