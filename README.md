@@ -23,7 +23,8 @@ Para esto utilizo Selenium en conjunto con BeautifulSoup.
 <li><strong>Python 3+</strong>: El lenguaje utilizado para la elaboración del código.</li>
 <li><strong>Selenium</strong>: Es un framework que nos permitirá simular la navegación mediante un web driver.</li>
 <li><strong>BeautifulSoup</strong>: Librería utilizada para analizar documentos HTML.</li>
-<li><strong>pytest</strong>: Librería de testing utilizada.</li>
+<li><strong>Pytest</strong>: Librería de testing utilizada.</li>
+<li><strong>Behave</strong>: Nos permite utilizar pruebas escritas en lenguaje natural.</li>
 </ul>
 
 <h2> DIA 1 </h2>
@@ -46,5 +47,11 @@ Le hago refactoring a los tests para aplicar el DRY, uno para conectarnos y otro
 El inconveniente que seguro verán es que el tiempo de ejecución de los tests es alto, esto es normal debido a que el programa en si utiliza Selenium.
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/test_refactoring_0.bmp?raw=true)
-![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/success_testing.bmp?raw=true)
+
+<h2> DIA 3 </h2>
+
+Hoy me levante con ganas de aplicar otra metodología, mi idea es que este proyecto sea completo y documentado, que cualquier stakeholder pueda entender y verificar como funciona el código, para esto implemente el conocido Behavior-Driver Development (BDD) con Behave, ahora usted puede comprobar con diversos parametros que el programa funciona como debe. 
+
+![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/gherkin_0.bmp?raw=true)
+
 #Selenium #Automation #Hacking #Scripting #bs4
