@@ -58,4 +58,12 @@ Mas allá de esto, hay que recalcar que este proyecto es en Selenium y aunque pa
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/behavior_testing_0.bmp?raw=true)
 
+<h2> DIA 4 </h2>
+
+Hoy dedique una hora a hacer refactoring, todo quedo mas prolijo, corregí algunos errores lógicos y también mejore la confiabilidad del código. Debido a que este proyecto es simple, estoy pensando en implementar mas adelante un sistema Selenium GRID, pero desde maquinas virtuales, mi idea es que el mismo código corra en maquinas y navegadores diferentes. Voy con calma, ahora me paso la mayor parte del día estudiando temas relacionados con backend, pero me voy a dar el gusto de pasar por acá un ratito al día.
+
+![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/gherkin_1.bmp?raw=true)
+
+![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/behavior_testing_1.bmp?raw=true)
+
 #Selenium #Automation #Hacking #Scripting #bs4
