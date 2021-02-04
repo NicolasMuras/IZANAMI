@@ -50,11 +50,11 @@ El inconveniente que seguro verán es que el tiempo de ejecución de los tests e
 
 <h2> DIA 3 </h2>
 
-Hoy me levante con ganas de aplicar otra metodología, mi idea es que este proyecto sea completo y documentado, que cualquier stakeholder pueda entender y verificar como funciona el código, para esto implemente el conocido Behavior-Driver Development (BDD) con Behave, ahora usted puede comprobar con diversos parametros que el programa funciona como debe. 
+Hoy me levante con ganas de aplicar otra metodología, mi idea es que este proyecto sea completo y documentado, que cualquier stakeholder pueda entender y verificar como funciona el código, para esto implemente el conocido Behavior-Driver Development (BDD) con Behave, ahora usted puede comprobar con diversos parámetros que el programa funciona como debe.
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/gherkin_0.bmp?raw=true)
 
-Mas alla de esto, hay que recalcar que este proyecto es en Selenium y aunque parezca que simplemente es un test UI, no lo es, mas adelante entrara en acción BeautifulSoup, con el que podremos hacer el conocido "web scraping" y todo cobrara mas sentido.
+Mas allá de esto, hay que recalcar que este proyecto es en Selenium y aunque parezca que simplemente es un test UI, no lo es, mas adelante entrara en acción BeautifulSoup, con el que podremos hacer el conocido "web scraping" y todo cobrara mas sentido.
 
 ![alt text](https://github.com/NicolasMuras/script_izanami/blob/main/images/behavior_testing_0.bmp?raw=true)
 
